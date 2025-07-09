@@ -17,7 +17,7 @@ I fine-tuned a pre-trained Vision Transformer (ViT) to classify whether an image
 
 The model was trained using:
 
-* A Vision Transformer (ViT-B/16, pre-trained on ImageNet)
+* A Vision Transformer (`google/vit-base-patch16-224\`, ViT-B/16, pre-trained on ImageNet)
 * Binary cross-entropy loss
 * Accuracy and class-wise precision/recall/F1 metrics
 * Early stopping based on validation performance
